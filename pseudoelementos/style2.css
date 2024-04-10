@@ -1,0 +1,30 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 10px;
+    background-color: brown;
+    color: white;
+}
+
+.main-van__item{
+    display: inline-block;
+}
+
+.main-van__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-van__item a:hover{
+    color: aqua;
+}
+
+.main-van__item a:active{
+    color: blueviolet;
+}
+
+.main-van__item a::after{
+    content: " | ";
+}

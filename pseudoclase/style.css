@@ -1,0 +1,24 @@
+a{text-decoration: none;color:blue}
+a:hover{text-decoration: underline}
+a:active{color: green;}
+li:nth-child(even) {background-color: green;} li:nth-child(odd) {background-color: red;}
+li:hover{text-decoration: underline; background-color: aqua; font-size: 20px;}
+li:active{color: rebeccapurple}
+
+input:valid{
+    background-color: green;
+}
+
+input:invalid{
+    background-color: red;
+}
+
+a{
+    background-color: white;
+    border: 1px solid white; 
+    } 
+
+a:visited {background-color: yellow;
+    border-color: purple;
+     color: purple;
+    }

@@ -1,0 +1,29 @@
+h3::first-letter{
+    font-size: xx-large;
+    color: red;
+}
+
+p::first-line{
+    font-variant: small-caps;
+}
+
+p::first-letter{
+    font-size: xx-large;
+    color: blue;
+    font-family: "Coronet";
+}
+
+p::before {
+    content: "«";
+    color: blue;
+  }
+
+p::after {
+    content: "»";
+    color: red;
+  }
+
+  ul li::marker {
+    color: orange;
+    font-size: 1.5em;
+  }

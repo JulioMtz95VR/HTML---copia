@@ -1,0 +1,11 @@
+.estilo1{color: green; font-size: small;}
+.estilo2{color: black; font-size: large;
+        text-decoration: overline;}
+.estilo3{font-style: italic;
+        background-color: yellow;}
+
+.estilo4{color: aqua; font-size: large;}
+
+.estilo5{
+    color: blueviolet; font-family: Arial, Helvetica, sans-serif;
+}

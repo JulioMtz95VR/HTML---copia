@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Mi Formulario</title>
+</head>
+<body>
+    <h1>Formulario para Inscribirte a mi pagina :)</h1>
+    <figure align="center">
+        <img src="jordan4.jpg" alt="teni">
+    </figure>
+    <fieldset>
+        <legend>Tus datos personsales</legend>
+        <form action="#" method="get">
+            <p>Nombre</p>
+            <input type="text">
+            <p>Apellido</p>
+            <input type="text">
+            <p>Correo</p>
+            <input type="text">
+            <p>Telefono</p>
+            <input type="number">
+            <p>Cual es tu sexo?</p>
+            <label for="sexo">
+                <input type="radio" name="sexo" value="Hombre">
+                <span>Hombre</span>
+            </label>
+            <label for="sexo">
+                <input type="radio" name="sexo" value="Mujer">
+                <span>Mujer</span>
+            </label>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Como es tu gusto en Sneakers</legend>
+        <form action="#" method="get">
+            <p>Que marca de Tenis es tu favorita?</p>
+            <input type="text">
+            <p>Que talla de eres?</p>
+            <input type="number">
+            <p>Cual par de Sneakerses tu favorito?</p>
+            <input type="text">
+            <p>Selecciona El tipo de Teni que te gusta mas!!</p>
+            <input list="selecciona">
+            <datalist id="selecciona">
+                <option value="Casual"></option>
+                <option value="Deporte"></option>
+                <option value="Elegante"></option>
+                <option value="Swag"></option>
+            </datalist>
+            <p>Describe para ti que son los Sneakers</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar Informacion">
+        </form>
+    </fieldset>
+</body>
+</html>

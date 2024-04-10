@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display:  inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: green;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 70px;
+    position: absolute;
+}
+
+/* Relative: Conserva du poscicion original*/
+/*Absolute Permanece en la poscision de fueron colocados*/
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.content {
+    margin-left: 250px; /* Ajustar el espacio para el contenido para evitar que se superponga con la barra lateral */
+}
+
+.ci {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ola{
+    font-family: Arial, Helvetica, sans-serif;
+}

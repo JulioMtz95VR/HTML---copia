@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario para Unirte a nustra Pagina <br>
+        Y descubrirmas!!
+    </h1>
+    <figure align="center">
+        <img src="./form2.png" alt="form" width="200px">
+    </figure>
+    <fieldset>
+        <legend>Ingresa tus datos personales</legend>
+        <form action="#" method="get">
+        <p>Nombre</p>
+        <input type="text" placeholder="Nombre">
+        <p>Apellido</p>
+        <input type="text" placeholder="Apellido">
+        <p>Correo</p>
+        <input type="text" placeholder="Ingresa tu correo">
+        <p>Contraseña</p>
+        <input type="password" placeholder="Ingresa tu contraseña">
+        <p>Telefono</p>
+        <input type="number" placeholder="Inngresa tu numero">
+        <p>Fecha de Nacimiento</p>
+        <input type="number"><span>de</span><input list="Meses" placeholder="Enero"><span>del</span><input type="number">
+        <datalist id="Meses">
+            <option value="Enero"></option>
+            <option value="Febrero"></option>
+            <option value="Marzo"></option>
+            <option value="Abril"></option>
+            <option value="Mayo"></option>
+            <option value="Junio"></option>
+            <option value="Julio"></option>
+            <option value="Agosto"></option>
+            <option value="Septiembre"></option>
+            <option value="Octubre"></option>
+            <option value="Noviembre"></option>
+            <option value="Diciembre"></option>
+        </datalist>
+        <p>Talla de Sneakers</p>
+        <input type="text">
+        <p>¿Cual es tu sexo?</p>
+        <label for="Sexo">
+            <input type="radio" name="sexo" value="Hombre">
+            <span>Hombre</span>
+        </label>
+        <label for="Sexo">
+            <input type="radio" name="sexo" value="Mujer">
+            <span>Mujer</span>
+        </label>
+        <br>
+        <br>
+        <input type="checkbox">
+        <span>No soy un robot</span>
+        <br>
+        <br>
+        <input type="submit" value="Enviar todo y Terminar">
+        <input type="reset" value="Borrar Datos">
+    </form>
+    </fieldset>
+    <br>
+    <br>
+    <a href="../Mi pagina/PaginaPersonal.html"><b>Regresar a la pagina principal</b></a>
+</body>
+</html>

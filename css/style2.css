@@ -1,0 +1,5 @@
+h1{color: yellow; text-align: center; text-decoration: overline; font-size: xx-small; font-style: italic;}
+h2{color: green; text-align: right; text-decoration: underline; font-size: x-large; font-style: normal;}
+p{color: red; text-align: left; text-decoration: line-through; font-size: medium; font-style: oblique;}
+b{color: black; text-align: left; text-decoration: underline; font-size: large; font-style: normal;}
+i{color: purple; text-align: center; text-decoration: overline; font-size: large; font-size: normal;}

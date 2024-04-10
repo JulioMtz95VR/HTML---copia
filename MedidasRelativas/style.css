@@ -1,0 +1,19 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.small-text {
+    font-size: 0.8em;
+    color: #999;
+}
